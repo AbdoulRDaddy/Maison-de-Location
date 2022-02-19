@@ -1,0 +1,86 @@
+header {
+    display: flex;
+    justify-content: space-between;
+ ;
+}
+.logo {
+    border-radius: 100%;
+}
+#bien {
+    font-size: 40px;
+    color: #3B2519;
+    text-align: center;
+}
+body {
+    background-image: url(imag1.jpg);
+}
+.grim {
+    margin-top: 20px;
+    width: 100%;
+}
+.ex1, .ex2, .in1, .in2, .in3 {
+    display: flex;
+    justify-content: center ;
+    width: 100%;
+}
+footer {
+    font-size: larger;
+    text-align: center;
+    margin-top: 43px;
+    background-color: rgb(184, 184, 184);
+}
+figcaption, p {
+    font-size: 20px;
+}
+h2 {
+    font-size: 30px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    margin-top: 20px;
+}
+.m2 {
+    margin-top: 480px;
+}
+.milieu {
+    margin: auto;
+}
+.forme {
+    margin-top: 50px;
+    text-align: center;
+    border: solid;
+    height: 400px;
+}
+input {
+    margin-top: 20px;
+    width: 400px;
+    height: 28px;
+}
+button {
+    height: 25px;
+    margin-top: 20px;
+}
+.mi {
+    width: 500px;
+}
+@media  screen and (max-width: 1200px)
+{
+    .logo {
+        width: 80%;
+    }
+    .ex1, .ex2, .in1, .in2, .in3 {
+        display: flex; flex-direction: column; 
+    }
+    .mi {
+        width: 70%;
+    }
+    input {
+        width: 200px;
+    }
+    body {
+        height: 300px;
+    }
+
+}
